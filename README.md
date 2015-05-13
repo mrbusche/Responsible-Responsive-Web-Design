@@ -1,3 +1,3 @@
 ## View it online:
 
-http://matthewbusche.com/p/responsive
+http://matthewbusche.com/p/rrwd
