@@ -377,6 +377,8 @@ conversely, JS is often able to be applied after page elements are loaded
 * detecting <a href="http://paul.kinlan.me/detecting-critical-above-the-fold-css/" target="_blank">above the fold</a> css
 * lazy load content
 
+<img src="loadcss.png">
+
 
 
 ##Testing
