@@ -2,9 +2,9 @@
 
 Matt Busche
 
-@mrbusche
+<a href="https://twitter.com/mrbusche">@mrbusche</a>
 
-matthewbusche.com/p/rrwd
+<a href="http://matthewbusche.com/p/rrwd/">matthewbusche.com/p/rrwd</a>
 
 
 
