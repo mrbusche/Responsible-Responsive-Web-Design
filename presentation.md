@@ -2,9 +2,9 @@
 
 Matt Busche
 
-<a href="https://twitter.com/mrbusche">@mrbusche</a>
+<a href="https://twitter.com/mrbusche" target="_blank">@mrbusche</a>
 
-<a href="http://matthewbusche.com/p/rrwd/">matthewbusche.com/p/rrwd</a>
+<a href="http://matthewbusche.com/p/rrwd/" target="_blank">matthewbusche.com/p/rrwd</a>
 
 
 
@@ -35,7 +35,7 @@ Note:
 Note:
 - no m.espn.com link
 - m.espn links redirect <a href="http://m.espn.go.com/nfl/story?storyId=10661193" target="_blank">test link</a>
-- m.espn link <a href="http://m.espn.go.com/general/chat/chat?eventId=51108&wjb">test link non insider</a>
+- m.espn link <a href="http://m.espn.go.com/general/chat/chat?eventId=51108&wjb" target="_blank">test link non insider</a>
 - mobile, desktop and user agent sniffer
 - SEO
 - what device, orientation, browser features
@@ -239,7 +239,7 @@ Note:
 * grunt imagemin - svg and gif
 * TinyPNG/TinyJPG
 * ImageOptim (mac)
-* <a href="http://static.nationwide.com/static/T2_NF_Story_NWbanner-lg-144-157735.jpg?r=43">banner</a> 80.7KB -> 21.4KB
+* <a href="http://static.nationwide.com/static/T2_NF_Story_NWbanner-lg-144-157735.jpg?r=43" target="_blank">banner</a> 80.7KB -> 21.4KB
 
 Note:
 - can run multiple times on tinyPNG
@@ -362,7 +362,7 @@ Note:
 ##Page Layout
 * CSS in head
 * script at end of body
-* <a href="https://developers.google.com/speed/pagespeed/insights/">Render blocking content</a>
+* <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Render blocking content</a>
 
 <img src="layout.png">
 
@@ -400,10 +400,10 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 ##Resources
-* <a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design</a>
-* <a href="http://abookapart.com/products/responsible-responsive-design">Responsible Responsive Design</a>
-* <a href="http://alistapart.com/">A List Apart</a>
-* <a href="http://www.filamentgroup.com/">Filament Group</a>
+* <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a>
+* <a href="http://abookapart.com/products/responsible-responsive-design" target="_blank">Responsible Responsive Design</a>
+* <a href="http://alistapart.com/" target="_blank">A List Apart</a>
+* <a href="http://www.filamentgroup.com/" target="_blank">Filament Group</a>
 
 
 
