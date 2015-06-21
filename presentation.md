@@ -67,7 +67,7 @@ Note:
 * CSS3 spec
 * <a href="http://caniuse.com/#feat=css-mediaqueries" target="_blank">media query</a>
 * IE 9, FF 3.5, Chrome 2
-* 94.61% (93.92% in February)
+* 94.73% (93.92% in February)
 * you can fix <IE8
 
 Note:
@@ -249,7 +249,7 @@ Note:
 ##Decreasing image load time
 * svg images require fallback
 * svg is not always better
-* <a href="http://caniuse.com/#feat=svg" target="_blank">94.54%</a> support
+* <a href="http://caniuse.com/#feat=svg" target="_blank">94.71%</a> support
 
 <img src="svg.png"><br>
 <img src="compare.png">
@@ -258,7 +258,7 @@ Note:
 
 ##Decreasing image load time
 * svg images
-* CSS shapes <a href="http://caniuse.com/#feat=css-shapes" target="_blank">50.69%</a>
+* CSS shapes <a href="http://caniuse.com/#feat=css-shapes" target="_blank">50.89%</a>
 
 <img src="polygon.png"><br>
 <img src="star.png">
@@ -266,9 +266,9 @@ Note:
 
 
 ##Decreasing image load time
-* <a href="http://boazsender.github.io/datauri/" target="_blank">data uri</a> - <a href="http://caniuse.com/#feat=datauri" target="_blank">96.94%</a>
+* <a href="http://boazsender.github.io/datauri/" target="_blank">data uri</a> - <a href="http://caniuse.com/#feat=datauri" target="_blank">96.99%</a>
 * ajax load data
-* <a href="picture" target="_blank">&#060;picture&#062;</a> one request <a href="http://caniuse.com/#feat=picture" target="_blank">41.88%</a>
+* <a href="picture" target="_blank">&#060;picture&#062;</a> one request <a href="http://caniuse.com/#feat=picture" target="_blank">45.62%</a>
 * <a href="https://github.com/scottjehl/picturefill" target="_blank">Picturefill</a> (polyfill)
 
 <img src="picture.png">
@@ -289,8 +289,8 @@ Note:
 * minify files
 	* remove comments
 * reduce # of files (concat)
-* development vs production
-* gzip
+* development vs gzip
+* production
 
 <img src="gzip.png">
 
@@ -328,6 +328,7 @@ Note:
 
 ##Enabling Gzip
 * .htaccess file
+* http://checkgzipcompression.com/
 
 <img src="htaccess.png">
 
