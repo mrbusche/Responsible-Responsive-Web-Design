@@ -67,7 +67,7 @@ Note:
 * CSS3 spec
 * <a href="http://caniuse.com/#feat=css-mediaqueries" target="_blank">media query</a>
 * IE 9, FF 3.5, Chrome 2
-* 94.73% (93.92% in February)
+* 96.45% (93.92% in February 2015)
 * you can fix <IE8
 
 Note:
@@ -188,7 +188,7 @@ Note:
 
 
 ##Detecting other features
-* @supports
+* <a href="http://caniuse.com/#feat=css-supports-api">@supports</a> 67.86% (non IE)
 
 <img src="supports.png">
 
@@ -222,13 +222,15 @@ Note:
 
 
 ##Load times
-* average page size is <a href="http://httparchive.org/interesting.php" target="_blank">2.061MB</a>
-	* 63% Images (1297 KB)
-	* 15% JavaScript (318)
-	* 7% Other (152)
-	* 5% Fonts (93)
-	* 3% CSS (61)
-	* 3% HTML (61)
+* average page size is <a href="http://httparchive.org/interesting.php" target="_blank">2219KB</a>
+	* 63.86% Images	(1412 KB)
+	* 16.64% Scripts (368)
+	* 8.46% Video	(187)
+	* 5.16% Fonts	(114)
+	* 3.35% CSS	(74)
+	* 2.35% HTML	(52)
+	* 0.18% Other	(4)
+
 * most are not responsive
 
 
@@ -249,7 +251,7 @@ Note:
 ##Decreasing image load time
 * svg images require fallback
 * svg is not always better
-* <a href="http://caniuse.com/#feat=svg" target="_blank">94.71%</a> support
+* <a href="http://caniuse.com/#feat=svg" target="_blank">96.43%</a> support
 
 <img src="svg.png"><br>
 <img src="compare.png">
@@ -258,7 +260,7 @@ Note:
 
 ##Decreasing image load time
 * svg images
-* CSS shapes <a href="http://caniuse.com/#feat=css-shapes" target="_blank">50.89%</a>
+* CSS shapes <a href="http://caniuse.com/#feat=css-shapes" target="_blank">55.99%</a>
 
 <img src="polygon.png"><br>
 <img src="star.png">
@@ -266,9 +268,9 @@ Note:
 
 
 ##Decreasing image load time
-* <a href="http://boazsender.github.io/datauri/" target="_blank">data uri</a> - <a href="http://caniuse.com/#feat=datauri" target="_blank">96.99%</a>
+* <a href="http://boazsender.github.io/datauri/" target="_blank">data uri</a> - <a href="http://caniuse.com/#feat=datauri" target="_blank">97.72%</a> no http request
 * ajax load data
-* <a href="picture" target="_blank">&#060;picture&#062;</a> one request <a href="http://caniuse.com/#feat=picture" target="_blank">45.62%</a>
+* <a href="picture" target="_blank">&#060;picture&#062;</a> one request <a href="http://caniuse.com/#feat=picture" target="_blank">55.47%</a>
 * <a href="https://github.com/scottjehl/picturefill" target="_blank">Picturefill</a> (polyfill)
 
 <img src="picture.png">
@@ -289,8 +291,8 @@ Note:
 * minify files
 	* remove comments
 * reduce # of files (concat)
-* development vs gzip
-* production
+* development vs production
+* gzip
 
 <img src="gzip.png">
 
@@ -336,26 +338,33 @@ Note:
 
 ##Load times using basic tips
 * 60% savings on images, JS, CSS
-* average page size is .941MB
-	* 55% Images (519 KB)
-	* 23% Other (212)
-	* 14% JavaScript (127)
-	* 3% CSS (24)
-	* 6% HTML (59)
+* average page size is 1099KB
+* 51% Images (565KB)
+* 13% Scripts (147)
+* 17% Video (187)
+* 10% Fonts (114)
+* 3% CSS (30)
+* 5% HTML (52)
+* .4% Other (4)
 * excludes (potential) gzip savings
 
 
 
-##Fluid Images
-* Fluid <a href="fluid" target="_blank">images</a>
+##Responsive Images
+* Responsive <a href="fluid" target="_blank">images</a>
 
 <img src="flexible.png">
 
 
 
-##Fluid videos
-* Works the same as images if HTML5
-* <a href="http://fitvidsjs.com/" target="_blank">FitVids.js</a> for non HTML5
+##Responsive videos
+* Create box with proper <a href="video" target="_blank">aspect ratio</a>
+
+<img src="video.png">
+
+Note:
+- 25px top bezel
+- 16:9 ratio
 
 
 
@@ -396,6 +405,11 @@ conversely, JS is often able to be applied after page elements are loaded
 * <a href="http://opendevicelab.com/" target="_blank">opendevicelab.com</a>
 * <a href="http://www.webpagetest.org/" target="_blank">WebPagetest</a>
 * Google <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed Insights</a>
+
+
+
+##References
+* <a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video" target="_blank">Creating Intrinsic Ratios for Video</a>
 
 
 
