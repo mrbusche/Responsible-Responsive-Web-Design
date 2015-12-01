@@ -235,6 +235,16 @@ Note:
 
 
 
+##Why do we care?
+* 80% of users are on 3G or worse
+
+<img src="ericsson.png">
+
+Note:
+- http://www.ericsson.com/res/docs/2014/ericsson-mobility-report-november-2014.pdf
+
+
+
 ##Decreasing image load time
 * PNG - decrease # of colors
 * JPEG - better encoding
@@ -410,6 +420,7 @@ conversely, JS is often able to be applied after page elements are loaded
 
 ##References
 * <a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video" target="_blank">Creating Intrinsic Ratios for Video</a>
+* <a href="http://responsivewebdesign.com/podcast/" target="_blank">Responsive Web Design Podcast</a>
 
 
 
