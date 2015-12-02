@@ -143,9 +143,9 @@ Note:
 
 
 ##Mobile First Development
-* can cause issues with unsupported browsers
 * determine what's important
 * progressive enhancement
+* can cause issues with <a href="http://m.espn.go.com/general/chat/chat?eventId=51108&wjb" target="_blank">unsupported browsers</a>
 
 Note:
 - a mobile-first responsive layout will render in a layout intended for small screens on a desktop computer, usable, but probably not ideal
@@ -163,6 +163,7 @@ Note:
 
 
 ##Determining the unsupported
+* mostly IE8 and Opera Mini. Some IE9
 * graceful degradation
 * media queries
 * HTML4 or HTML5
@@ -401,6 +402,22 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 
+##HTTP/2
+* Improved Performance - transferred in binary (no translating)
+* Multiplexing - multiple concurrently open streams
+* Prioritization - determined by the browser
+* Compression - headers are redundant
+* Built off of SPDY
+
+
+
+##Auto complete
+* Form <a href="form" target="_blank">auto complete</a>
+
+<img src="autocomplete.png">
+
+
+
 ##Testing
 * chrome - dev tools
 * network tools
@@ -420,11 +437,13 @@ conversely, JS is often able to be applied after page elements are loaded
 
 ##References
 * <a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video" target="_blank">Creating Intrinsic Ratios for Video</a>
+* <a href="https://sathyalog.wordpress.com/2015/03/03/http2-the-rocket-booster-of-http/" target="_blank">HTTP/2</a>
 * <a href="http://responsivewebdesign.com/podcast/" target="_blank">Responsive Web Design Podcast</a>
 
 
 
 ##Resources
+* <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN)</a>
 * <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a>
 * <a href="http://abookapart.com/products/responsible-responsive-design" target="_blank">Responsible Responsive Design</a>
 * <a href="http://alistapart.com/" target="_blank">A List Apart</a>
