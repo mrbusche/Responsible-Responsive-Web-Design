@@ -125,11 +125,11 @@ Note:
 
 
 
-##Layout Process
-* identifying breakpoints
-* progressive disclosure
+##Progressive Disclosure
 
-<img src="contact.png">
+<img src="mobile.png" style="vertical-align: top;">
+<img src="contact.png" style="vertical-align: top;">
+<img src="menu.png" style="vertical-align: top;">
 
 Note:
 - start with a small screen and expand until it looks bad, time for a breakpoint
