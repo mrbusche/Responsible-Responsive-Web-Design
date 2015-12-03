@@ -418,6 +418,48 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 
+##Service Worker
+* <a href="http://caniuse.com/#feat=serviceworkers" target="_blank">46.94%</a> Chrome and Opera Only
+* Endpoint is important! (not /js)
+
+<img src="serviceworker.png">
+
+
+
+##Service Worker
+* Promises
+* Offline functionality
+* Push Notifications
+* Background Sync
+* Add to Home Screen
+
+
+
+## Offline functionality
+* chrome://flags "Enable Show Saved Copy Button"
+* Cache assets (array for folders/assets)
+* Network then cached
+* Cached then network
+
+
+
+## Push Notifications
+* Can be disabled entirely or per site
+* <a href="https://simple-push-demo.appspot.com/" target="_blank">Push demo</a>
+* <a href="https://www.npmjs.com/package/w3gram" target="_blank">w3gram</a> Chrome 38, Firefox 32, Safari 8
+* Websocket API
+
+
+
+## Add to Home Screen
+* Impression of native app
+* Eligibility criteria evolve over time
+* Offline enabled
+* Web App Manifest Required (name/icon)
+* HTTPS
+
+
+
 ##Testing
 * chrome - dev tools
 * network tools
@@ -438,7 +480,7 @@ conversely, JS is often able to be applied after page elements are loaded
 ##References
 * <a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video" target="_blank">Creating Intrinsic Ratios for Video</a>
 * <a href="https://sathyalog.wordpress.com/2015/03/03/http2-the-rocket-booster-of-http/" target="_blank">HTTP/2</a>
-* <a href="http://responsivewebdesign.com/podcast/" target="_blank">Responsive Web Design Podcast</a>
+* <a href="https://ponyfoo.com/articles/serviceworker-revolution" target="_blank">Service Worker</a>
 
 
 
@@ -446,6 +488,7 @@ conversely, JS is often able to be applied after page elements are loaded
 * <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN)</a>
 * <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a>
 * <a href="http://abookapart.com/products/responsible-responsive-design" target="_blank">Responsible Responsive Design</a>
+* <a href="http://responsivewebdesign.com/podcast/" target="_blank">Responsive Web Design Podcast</a>
 * <a href="http://alistapart.com/" target="_blank">A List Apart</a>
 * <a href="http://www.filamentgroup.com/" target="_blank">Filament Group</a>
 
