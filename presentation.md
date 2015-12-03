@@ -396,6 +396,7 @@ conversely, JS is often able to be applied after page elements are loaded
 ##Perceived Performance
 * mobile users have short attention spans
 * detecting <a href="http://paul.kinlan.me/detecting-critical-above-the-fold-css/" target="_blank">above the fold</a> css
+* there is <a href="http://www.lukew.com/ff/entry.asp?1946" target="_blank">no fold</a>
 * lazy load content
 
 <img src="loadcss.png">
@@ -452,7 +453,7 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 ## Add to Home Screen
-* Impression of native app
+* Impression of native app (escapes browser tabs)
 * Eligibility criteria evolve over time
 * Offline enabled
 * Web App Manifest Required (name/icon)
@@ -485,7 +486,8 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 ##Resources
-* <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN)</a>
+* <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network (MDN)</a>
+* <a href="http://designingforperformance.com/index.html" target="_blank">Designing for Performance</a> Lara Hogan
 * <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a>
 * <a href="http://abookapart.com/products/responsible-responsive-design" target="_blank">Responsible Responsive Design</a>
 * <a href="http://responsivewebdesign.com/podcast/" target="_blank">Responsive Web Design Podcast</a>
