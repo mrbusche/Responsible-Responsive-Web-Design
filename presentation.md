@@ -49,6 +49,7 @@ Note:
 
 
 ##Why Responsive Design?
+* 330M smartphones sold in Q2 2015
 * 6.2 visits on 2.6 devices
 
 <img src="globalusers.png">
@@ -67,12 +68,6 @@ Note:
 * don't have money for apps
 * accessible from any device
 * SEO matters
-
-Note:
-- phone and tablet are mobile
-- 28% mobile traffic 1/3 tablet, 2/3 phone
-- apple, android, microsoft, blackberry
-- 250M smartphones sold in Q3 2013
 
 
 
@@ -125,6 +120,7 @@ Note:
 * mobile first!
 * useful for some, useful for all
 * design for touch screen
+* decide in the browser
 
 Note:
 - Use as many break points as needed
@@ -133,14 +129,21 @@ Note:
 
 
 
+##Mobile First Development
+* determine what's important
+* progressive enhancement
+* can cause issues with <a href="http://m.espn.go.com/general/chat/chat?eventId=51108&wjb" target="_blank">unsupported browsers</a>
+
+Note:
+- a mobile-first responsive layout will render in a layout intended for small screens on a desktop computer, usable, but probably not ideal
+
+
+
 ##Progressive Disclosure
 
 <img src="mobile.png" style="vertical-align: top;">
 <img src="contact.png" style="vertical-align: top;">
 <img src="menu.png" style="vertical-align: top;">
-
-Note:
-- start with a small screen and expand until it looks bad, time for a breakpoint
 
 
 
@@ -158,16 +161,6 @@ Note:
 ##Layout Process
 <a href="http://alistapart.com/article/how-we-hold-our-gadgets" target="_blank">How We Hold Our Gadgets</a>
 <img src="pinky.jpg">
-
-
-
-##Mobile First Development
-* determine what's important
-* progressive enhancement
-* can cause issues with <a href="http://m.espn.go.com/general/chat/chat?eventId=51108&wjb" target="_blank">unsupported browsers</a>
-
-Note:
-- a mobile-first responsive layout will render in a layout intended for small screens on a desktop computer, usable, but probably not ideal
 
 
 
@@ -294,8 +287,10 @@ Note:
 * svg images
 * CSS shapes <a href="http://caniuse.com/#feat=css-shapes" target="_blank">55.99%</a>
 
-<img src="polygon.png"><br>
-<img src="star.png">
+<img src="polygon.png">
+<svg width="120" height="120" viewPort="0 0 120 120">
+	<polygon fill="blue" points="60,20 100,40 100,80 60,100 20,80 20,40"/>
+</svg>
 
 
 
@@ -378,7 +373,7 @@ Note:
 * 3% CSS (30)
 * 5% HTML (52)
 * .4% Other (4)
-* excludes (potential) gzip savings
+* excludes any gzip savings
 
 
 
@@ -455,7 +450,7 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 ##Service Worker
-* <a href="http://caniuse.com/#feat=serviceworkers" target="_blank">46.94%</a> Chrome and Opera Only
+* <a href="http://caniuse.com/#feat=serviceworkers" target="_blank">46.94%</a> Chrome, Opera and Firefox 44 (42 stable)
 * Endpoint is important! (not /js)
 
 <img src="serviceworker.png">
