@@ -43,6 +43,19 @@ Note:
 
 
 ##Why Responsive Design?
+
+<img src="devices.png">
+
+
+
+##Why Responsive Design?
+* 6.2 visits on 2.6 devices
+
+<img src="globalusers.png">
+
+
+
+##Why Responsive Design?
 * users don't want an app<br>
 <a href="atlantic.png" target="_blank"><img src="atlanticsmall.png"></a>
 
@@ -120,11 +133,6 @@ Note:
 
 
 
-##Layout Process
-<a href="http://www.lukew.com/ff/entry.asp?1927" target="_blank"><img src="touch.png"></a>
-
-
-
 ##Progressive Disclosure
 
 <img src="mobile.png" style="vertical-align: top;">
@@ -139,6 +147,17 @@ Note:
 ##Progressive Disclosure
 <img src="minimized.png"><br>
 <img src="maximized.png">
+
+
+
+##Layout Process
+<a href="http://www.lukew.com/ff/entry.asp?1927" target="_blank"><img src="touch.png"></a>
+
+
+
+##Layout Process
+<a href="http://alistapart.com/article/how-we-hold-our-gadgets" target="_blank">How We Hold Our Gadgets</a>
+<img src="pinky.jpg">
 
 
 
@@ -237,12 +256,14 @@ Note:
 
 
 ##Why do we care?
-* 80% of users are on 3G or worse
+* 80% of worldwide users are on 3G or worse
 
 <img src="ericsson.png">
 
-Note:
-- http://www.ericsson.com/res/docs/2014/ericsson-mobility-report-november-2014.pdf
+
+
+##Why do we care?
+<img src="cost.png">
 
 
 
@@ -412,6 +433,20 @@ conversely, JS is often able to be applied after page elements are loaded
 
 
 
+##HTTP/2
+* no more concatenating text files
+* no more inlining js or css
+* no more sprite images
+
+
+
+##HTTP/2
+* keep optimizing size
+* keep progressive enhancement
+* keep avoiding unnecessary http requests
+
+
+
 ##Auto complete
 * Form <a href="form" target="_blank">auto complete</a>
 
@@ -482,6 +517,10 @@ conversely, JS is often able to be applied after page elements are loaded
 * <a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video" target="_blank">Creating Intrinsic Ratios for Video</a>
 * <a href="https://sathyalog.wordpress.com/2015/03/03/http2-the-rocket-booster-of-http/" target="_blank">HTTP/2</a>
 * <a href="https://ponyfoo.com/articles/serviceworker-revolution" target="_blank">Service Worker</a>
+* <a href="http://alistapart.com/article/how-we-hold-our-gadgets" target="_blank">How We Hold Our Gadgets</a>
+* <a href="https://www.filamentgroup.com/lab/delivering-responsibly.html" target="_blank">Scott Jehl - Delivering Responsibly</a>
+* <a href="http://www.ericsson.com/res/docs/2014/ericsson-mobility-report-november-2014.pdf" target="_blank">Ericsson Mobility Report</a>
+* <a href="https://whatdoesmysitecost.com/" target="_blank">What Does My Site Cost?s</a>
 
 
 
