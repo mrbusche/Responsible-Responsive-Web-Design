@@ -58,7 +58,7 @@ Note:
 
 ##Why Responsive Design?
 * users don't want an app<br>
-<a href="atlantic.png" target="_blank"><img src="atlanticsmall.png"></a>
+<a href="atlanticsmall.png" target="_blank"><img src="atlanticsmall.png"></a>
 
 
 
